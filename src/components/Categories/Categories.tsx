@@ -6,7 +6,11 @@ import Burger_n_chips from "../../assets/Burger_n_Chips.png";
 import Burger_Image from "../../assets/Burger-Image.png";
 import Shopping_bag from "../../assets/shopping-bag.png";
 import Cupcake from "../../assets/Cupcake.png";
+import Faint2 from "../../assets/faint2.png";
+import Layer from "../../assets/layer.png";
+import Fifteen from "../../assets/Fifteen.png";
 import { RiSearchLine } from "react-icons/ri";
+import { RiAddLargeLine } from "react-icons/ri";
 
 const Categories: React.FC = () => {
   const [sortBy, setSortBy] = useState("");
@@ -96,20 +100,18 @@ const Categories: React.FC = () => {
       <div className="categories__lists">
         <div className="categories__lists-nav">
           <div className="categories__lists-nav_search-sec">
-            <div className="categories__lists-nav_search-sec_search-sec_bar">
-              <input
-                type="text"
-                placeholder="Search..."
-                onChange={handleSearch}
-              />
-              <button onClick={handleSearch}>
-                <RiSearchLine />
-              </button>
-              <span>All Products</span>
-            </div>
+            <input
+              type="text"
+              placeholder="Search Product"
+              onChange={handleSearch}
+            />
+            <button onClick={handleSearch}>
+              <RiSearchLine />
+            </button>
           </div>
+          <h3>All Products</h3>
           <div className="categories__lists-nav_dropdown">
-            <p>Sort By</p>
+            <h2>Sort By:</h2>
             <select value={sortBy} onChange={handleSortChange}>
               <option value="Default">Default</option>
               <option value="name">Name</option>
@@ -120,45 +122,79 @@ const Categories: React.FC = () => {
         <div className="categories__item-sec">
           <div className="categories__item-sec_filter">
             <h3>Filter By:</h3>
-            <p>Categories</p>
-            <p>Price</p>
-            <p>Ratings</p>
-          </div>
-          <div className="categories__item-sec_filter-item">
-            {itemsToShow.map((item) => (
-              <div key={item.id} className="item">
-                {item.imageUrl && (
-                  <img
-                    src={ImageMap[item.imageUrl as string]}
-                    alt={item.name}
-                  />
-                )}
+            <div className="categories__item-sec_filter-cat">
+              <p>Categories</p>
+              <span>
+                <RiAddLargeLine />
+              </span>
+            </div>
+            <div className="categories__item-sec_filter-cat">
+              <p>Price</p>
+              <span>
+                <RiAddLargeLine />
+              </span>
+            </div>
+            <div className="categories__item-sec_filter-cat">
+              <p>Ratings</p>
+              <span>
+                <RiAddLargeLine />
+              </span>
+            </div>
 
-                <div className="details">
-                  <h3>{item.name}</h3>
-                  <p>{item.description}</p>
-                  <p>{item.name}</p>
-                  <div>
-                    <span>{item.oldamount}</span> <span>{item.newamount}</span>
+          </div>
+          <div className="categories__item-sec_filter-items_parent">
+            <div className="categories__item-sec_filter-items-parent-item1">
+              {itemsToShow.map((item) => (
+                <div
+                  key={item.id}
+                  className="categories__item-sec_filter-item_items"
+                >
+                  <div className="categories__item-sec_filter-item_items-img">
+                    {item.imageUrl && (
+                      <img
+                        src={ImageMap[item.imageUrl as string]}
+                        alt={item.name}
+                      />
+                    )}
                   </div>
-                  <div>
-                    <button>View Details</button>
-                    <button>
-                      <img src={Shopping_bag} />
-                    </button>
-                  </div>
-                  <div className="rating">
-                    {Array.from({ length: item.rating }, (_, index) => (
-                      <span key={index}>⭐</span>
-                    ))}
-                    <span>{item.reviewsCount}</span>
+
+                  <div className="categories__item-sec_filter-item_items-details">
+                    <h3>{item.name}</h3>
+                    <p>{item.description}</p>
+                    <div className="categories__item-sec_filter-item_items-details_amount">
+                      <span className="categories__item-sec_filter-item_items-details_amount-deco">
+                        {item.oldamount}
+                      </span>{" "}
+                      <span>{item.newamount}</span>
+                    </div>
+                    <div className="categories__item-sec_filter-item_items-details_viewdetails">
+                      <button className="categories__item-sec_filter-item_items-details_viewdetails-but">
+                        View Details
+                      </button>
+                      <button className="categories__item-sec_filter-item_items-details_viewdetails-shoppingbag">
+                        <img src={Shopping_bag} />
+                      </button>
+                      <div className="rating">
+                        {Array.from({ length: item.rating }, (_, index) => (
+                          <span key={index}>⭐</span>
+                        ))}
+                        <span>{item.reviewsCount}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            <div className="pagination">
+              {paginationButtons}
+              <button>3,</button>
+              <button>4</button>
+              ...<button>15,</button>
+              <button>16</button>
+              <button className="pagination-last-c">Next</button>
+            </div>
           </div>
         </div>
-        <div className="pagination">{paginationButtons}</div>
       </div>
     </div>
   );
