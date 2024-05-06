@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+// import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
+// import Home from "./components/Home/Home";
 import Categories from "./components/Categories/Categories";
 import ProductDetail from "./components/ProductDetail/ProductDetail";
 import ProductReview from "./components/ProductReview/ProductReview";
@@ -17,9 +17,9 @@ import ContactUs from "./components/ContactUs/ContactUs";
 const App: React.FC = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/categories" element={<Categories />} />
         <Route path="/product/:productId" element={<ProductDetail />} />
         <Route path="/product/:productId/review" element={<ProductReview />} />
