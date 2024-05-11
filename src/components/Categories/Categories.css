@@ -76,11 +76,18 @@
     justify-content: center;
   }
 }
+@media only screen and (max-width: 460px) {
+  .categories__head-heading h2 {
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 0;
+  }
+}
 
 .categories__lists {
   display: flex;
   flex-direction: column;
-  margin: 40px 230px;
+  margin: 10px 10px;
 }
 
 .categories__lists-nav {
@@ -141,6 +148,7 @@
   background-image: url(../../assets/faint2.png);
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  /* overflow: hidden; */
 }
 
 .categories__item-sec_filter {
@@ -158,25 +166,26 @@
 .categories__item-sec_filter::before {
   content: "";
   position: absolute;
+  top: 10%;
+  left: 45%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/faint2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.categories__item-sec_filter::after {
+  content: "";
+  position: absolute;
   top: 0;
-  left: -50;
+  right: -46%;
   width: 100%;
   height: 100%;
   background-image: url(../../assets/Fifteen.png);
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-.categories__item-sec::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../../assets/layer.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  /* transform: translateY(-50%); */
 }
 
 .categories__item-sec_filter h3 {
@@ -281,23 +290,4 @@
 .pagination button.active {
   background-color: #006633;
   color: #ffffff;
-}
-
-@media screen and (max-width: 768px) {
-  .categories__item-sec_filter {
-    flex: 0 0 100%;
-  }
-
-  .categories__item-sec_filter-item .item {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 460px) {
-  .categories__item-sec_filter {
-    flex: 0 0 100%;
-  }
-
-  .categories__item-sec_filter-item .item {
-    width: 100%;
-  }
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CustomButton from "../../utils/button/CustomButton";
 import { Item, items as sampleItems } from "./items";
 import "./Categories.css";
 import { ImageMap } from "./ImageImport";
@@ -140,7 +141,6 @@ const Categories: React.FC = () => {
                 <RiAddLargeLine />
               </span>
             </div>
-
           </div>
           <div className="categories__item-sec_filter-items_parent">
             <div className="categories__item-sec_filter-items-parent-item1">
@@ -187,11 +187,11 @@ const Categories: React.FC = () => {
             </div>
             <div className="pagination">
               {paginationButtons}
-              <button>3,</button>
-              <button>4</button>
-              ...<button>15,</button>
-              <button>16</button>
-              <button className="pagination-last-c">Next</button>
+              <>
+                <button>15</button>
+                <button>16</button>
+              </>
+              <CustomButton className="next-button">Next</CustomButton>
             </div>
           </div>
         </div>
