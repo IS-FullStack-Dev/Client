@@ -187,10 +187,10 @@ const Categories: React.FC = () => {
             </div>
             <div className="pagination">
               {paginationButtons}
-              <>
-                <button>15</button>
-                <button>16</button>
-              </>
+              <button>3,</button>
+              <button>4</button>
+              ...<button>15,</button>
+              <button>16</button>
               <CustomButton className="next-button">Next</CustomButton>
             </div>
           </div>
