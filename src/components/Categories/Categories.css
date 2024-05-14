@@ -76,6 +76,12 @@
     justify-content: center;
   }
 }
+@media only screen and (max-width: 460px) {
+  .categories__head-heading h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
 
 .categories__lists {
   display: flex;
@@ -285,19 +291,242 @@
 
 @media screen and (max-width: 768px) {
   .categories__item-sec_filter {
-    flex: 0 0 100%;
+    flex: 100%;
+    display: none;
+  }
+  .categories__lists {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
   }
 
-  .categories__item-sec_filter-item .item {
-    width: 50%;
+  .categories__lists-nav {
+    flex-direction: column;
+    height: 30px;
+    margin-bottom: 6px;
+  }
+  .categories__lists-nav_search-sec {
+    margin-right: 6px;
+  }
+  .categories__lists-nav_search-sec input {
+    padding-left: 6px;
+    width: 100px;
+  }
+  .categories__lists-nav_search-sec button {
+    height: 26px;
+
+    width: 30px;
+    font-size: 14px;
+  }
+
+  .categories__lists-nav_dropdown {
+    flex-direction: column;
+
+    width: 100px;
+  }
+  .categories__lists-nav_dropdown h2 {
+    font-size: 12px;
+    margin-right: 6px;
+    line-height: 14px;
+  }
+  .categories__lists-nav_dropdown select {
+    height: 14px;
+    width: 100px;
+
+    padding-left: 6px;
+  }
+
+  .categories__item-sec {
+    background: none;
+  }
+
+  .categories__item-sec_filter {
+    /* background-image: url(../../assets/Cupcake.png); */
+    /* background-repeat: no-repeat; */
+    background: none;
+    flex: 100%;
+    padding: 0 6px;
+  }
+
+  .categories__item-sec_filter::before {
+    display: none;
+  }
+
+  .categories__item-sec::after {
+    display: none;
+  }
+
+  .categories__item-sec_filter h3 {
+    margin-bottom: 6px;
+  }
+
+  .categories__item-sec_filter-cat {
+    margin-bottom: 6px;
+    padding: 6px;
+  }
+
+  .categories__item-sec_filter-cat p {
+    margin-right: 6px;
+  }
+
+  .categories__item-sec_filter-items_parent {
+    flex: 100%;
+    margin-left: 6px;
+  }
+
+  /* .categories__item-sec_filter-items-parent-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  } */
+
+  .categories__item-sec_filter-item_items {
+    width: 100%;
+    margin: 6px;
+    padding-bottom: 14px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails-but {
+    margin-right: 6px;
+    padding: 4px 10px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails-shoppingbag {
+    padding: 3px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails {
+    flex-direction: row;
+    margin-top: 8px;
+  }
+
+  .pagination {
+    margin-top: 30px;
+  }
+
+  .pagination button {
+    margin: 0 3px;
+    padding: 6px 14px;
   }
 }
+
 @media screen and (max-width: 460px) {
   .categories__item-sec_filter {
-    flex: 0 0 100%;
+    flex: 100%;
+    display: none;
+  }
+  .categories__lists {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
   }
 
-  .categories__item-sec_filter-item .item {
+  .categories__lists-nav {
+    flex-direction: column;
+    height: 30px;
+    margin-bottom: 6px;
+  }
+  .categories__lists-nav_search-sec {
+    margin-right: 6px;
+  }
+  .categories__lists-nav_search-sec input {
+    padding-left: 6px;
+    width: 100px;
+  }
+  .categories__lists-nav_search-sec button {
+    height: 26px;
+
+    width: 30px;
+    font-size: 14px;
+  }
+
+  .categories__lists-nav_dropdown {
+    flex-direction: column;
+
+    width: 100px;
+  }
+  .categories__lists-nav_dropdown h2 {
+    font-size: 12px;
+    margin-right: 6px;
+    line-height: 14px;
+  }
+  .categories__lists-nav_dropdown select {
+    height: 14px;
+    width: 100px;
+
+    padding-left: 6px;
+  }
+
+  .categories__item-sec {
+    background: none;
+  }
+
+  .categories__item-sec_filter {
+    /* background-image: url(../../assets/Cupcake.png); */
+    /* background-repeat: no-repeat; */
+    background: none;
+    flex: 100%;
+    padding: 0 6px;
+  }
+
+  .categories__item-sec_filter::before {
+    display: none;
+  }
+
+  .categories__item-sec::after {
+    display: none;
+  }
+
+  .categories__item-sec_filter h3 {
+    margin-bottom: 6px;
+  }
+
+  .categories__item-sec_filter-cat {
+    margin-bottom: 6px;
+    padding: 6px;
+  }
+
+  .categories__item-sec_filter-cat p {
+    margin-right: 6px;
+  }
+
+  .categories__item-sec_filter-items_parent {
+    flex: 100%;
+    margin-left: 6px;
+  }
+
+  /* .categories__item-sec_filter-items-parent-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  } */
+
+  .categories__item-sec_filter-item_items {
     width: 100%;
+    margin: 6px;
+    padding-bottom: 14px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails-but {
+    margin-right: 6px;
+    padding: 4px 10px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails-shoppingbag {
+    padding: 3px;
+  }
+
+  .categories__item-sec_filter-item_items-details_viewdetails {
+    flex-direction: row;
+    margin-top: 8px;
+  }
+
+  .pagination {
+    margin-top: 30px;
+  }
+
+  .pagination button {
+    margin: 0 3px;
+    padding: 6px 14px;
   }
 }
