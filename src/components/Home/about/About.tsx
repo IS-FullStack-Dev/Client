@@ -13,16 +13,16 @@ export default function About() {
             <div className="about-text-box">
                 <p className='about-first-heading orange-text'>Who Are We ?</p>
                 <h4 className='about-second-heading '>Snacks That Makes A <strong className='about-second-heading orange-text'>Difference</strong></h4>
-                <p className='about-description'>Welcome to the ultimate destination for snack enthusiasts. We are passionate<br/> 
-                about bringing you a delectable assortment of snacks that will satisfy your <br />
+                <p className='about-description'>Welcome to the ultimate destination for snack enthusiasts. We are passionate 
+                about bringing you a delectable assortment of snacks that will satisfy your 
                 cravings and ignite your tast buds. 
-                We understand the love Nigerians have for snacks. It's an integral part of our<br />  
-                culture, bringing people together in moments of joy, celebration, and <br /> togetherness, 
+                We understand the love Nigerians have for snacks. It's an integral part of our  
+                culture, bringing people together in moments of joy, celebration, and  togetherness, 
                 We are dedicated to showcasing the iverse array of snacks that 
-                our country has to offer, from traditional favorites to hidden gems from local artisans.<br />
-                We are more than just an online store; it's a celebration of Nigerian snacks and<br /> 
-                the people who create them. We are dedicated to preserving and sharing the <br /> 
-                flavors that have been passed down through generations, allowing you to savor <br />
+                our country has to offer, from traditional favorites to hidden gems from local artisans.
+                We are more than just an online store; it's a celebration of Nigerian snacks and 
+                the people who create them. We are dedicated to preserving and sharing the 
+                flavors that have been passed down through generations, allowing you to savor 
                 a piece of our cultural tapestry with every bite.</p>
 
                 <button className='about-btn'>Shop Now</button>
@@ -33,10 +33,10 @@ export default function About() {
             <div className="delivery-text-box">
                 <p className='delivery-first-heading orange-text'>Fast Delivery</p>
                 <h4 className='delivery-second-heading'>No More <strong className='delivery-second-heading orange-text'>Waiting</strong></h4>
-                <p className='delivery-description'>Snacks at your doorstep, faster than you can say 'hungry'.<br />
-                We prioritize your cravings and understand the need for quick satisfaction. That's<br/> 
-                why we offer lightning-fast delivery, bringing your favorite snacks right to your<br/> door in record time. 
-                No more waiting, no more delays, Order now and experience<br/> the thrill of our speedy snack delivery service.<br/>
+                <p className='delivery-description'>Snacks at your doorstep, faster than you can say 'hungry'.
+                We prioritize your cravings and understand the need for quick satisfaction. That's
+                why we offer lightning-fast delivery, bringing your favorite snacks right to your door in record time. 
+                No more waiting, no more delays, Order now and experience the thrill of our speedy snack delivery service.<br/>
                 <strong className='orange-text'>Hungry minds can't wait, and neither do we!</strong></p>
                 <button className='about-btn'>Shop Now</button>
 

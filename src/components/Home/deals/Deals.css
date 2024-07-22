@@ -25,9 +25,7 @@
 .deals-subheading-text{
     font-size: 1rem;
     font-weight: 600;
-
 }
-
 
 .deals-subheading-btn{
     background-color: #006633;
@@ -40,9 +38,7 @@
 
 .deals-parent-container{
     display: flex;
-    gap: 0.8em;
-    
-   
+    gap: 0.8em; 
 }
 .item-img{
     width: 50%
@@ -151,7 +147,6 @@
         justify-content: space-between;
     }
   
-
     .deals-subheading-btn{
         background-color: #fff;
         color: #006633;

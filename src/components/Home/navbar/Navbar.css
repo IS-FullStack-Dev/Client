@@ -122,6 +122,7 @@
     .main-nav-list{
         display: flex;
         flex-direction: column;
+       
         gap: 2rem;
         font-weight: bold;
         margin-bottom: 1rem;
@@ -129,16 +130,19 @@
 
     .list-icon {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+        align-items: center;
         gap: 1rem;
         margin-bottom: 2rem;
     }
     .contacts-num{
         margin-bottom: 1rem;
+        justify-content: center;
         
     }
     
     .main-nav-list li {
         font-size: 1.0rem;
     }
+   
 }

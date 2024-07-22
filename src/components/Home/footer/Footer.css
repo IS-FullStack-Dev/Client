@@ -9,26 +9,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 4em;
 }
-
-/* 1140px */
-/* .container{
-    padding:0 6.2rem;
-    margin: 0 auto;
-} */
-
-/* .grid {
-    display: grid;
-    justify-content: center;
-    column-gap: 1.4rem;
-    row-gap: 9.6rem;     
-}   */
-
-/* .grid--footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4em;
-}
-
+    
 .logo{
     margin-bottom: 1em;
 }
@@ -36,7 +17,7 @@
 .brand-description{
     font-weight: 200;
     line-height: 1.6;
-}
+} 
 
 .social-links{
     display: flex;
@@ -50,13 +31,13 @@
     height: 0.8em;
     width: 0.8em;
     color: #fff;
-}
+} 
 
 .footer-heading {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 2em;
-}
+} 
 
 .address{
     line-height: 1.4;
@@ -70,9 +51,9 @@
 .footer-link{
     text-decoration: none;
     color:#fff;
-   
-}
-
+    
+} 
+     
 .footer-list{
     color:#fff;
     text-decoration: none;
@@ -84,7 +65,7 @@
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
+} 
 
 .footer-nav{
     display: flex;
@@ -99,6 +80,7 @@
 .phone-icon{
     width:7%
 }
+
 .schedule{
     font-size: 0.8rem;
     margin-bottom: 1rem;
@@ -109,142 +91,30 @@
     color: #fff ;
     text-align: center;
     margin-top: 6rem;
+} 
+
+.footer-list-item{
+    display: flex;
 }
+
 
 .footer-list-item{
     display: flex;
     justify-content: center;
-    align-items: center;
     color: #fff;
     font-size: 0.6rem;
     margin-top: 2rem;
     margin-right: 4rem;
-    margin-left: 20em;
     gap: 1em;
 }
 
-.dot {
+.footer-dot {
     height: 5px;
     width: 5px;
     background-color: #ddd;
     border-radius: 5%;
-   
-  }
-   */
-
-/* 
-    .footer{
-        padding: 2em 4em;
-        background-color: #0f0f0f;
-        color: #fff
-    } */
-
     
-    .logo{
-        margin-bottom: 1em;
-    }
-
-    .brand-description{
-        font-weight: 200;
-        line-height: 1.6;
-    } 
-
-    .social-links{
-        display: flex;
-        list-style: none;   
-        gap: 1.4em;
-        margin-top: 2em;
-        margin-bottom: 2em; 
-    }
-
-    .social-icon {
-        height: 0.8em;
-        width: 0.8em;
-        color: #fff;
-    } 
-
-    .footer-heading {
-        font-size: 1rem;
-        font-weight: 700;
-        margin-bottom: 2em;
-    } 
-
-    .address{
-        line-height: 1.4;
-    }
-
-    .telephone{
-        line-height: 1.8;
-        margin-bottom: 2em;
-    }
-
-    .footer-link{
-        text-decoration: none;
-        color:#fff;
-    
-    } 
-     
-    .footer-list{
-        color:#fff;
-        text-decoration: none;
-        font-size: 0.8rem;
-        margin-right: 1rem;
-    }
-
-    .delivery-phone{
-        font-size: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    } 
-
-    .footer-nav{
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-
-    .nav-col2{
-        margin-bottom: 2em;
-    }
-
-    .phone-icon{
-        width:7%
-    }
-
-    .schedule{
-        font-size: 0.8rem;
-        margin-bottom: 1rem;
-    }
-
-    .copyright{
-        font-size: 0.6rem;
-        color: #fff ;
-        text-align: center;
-        margin-top: 6rem;
-    } 
-
-    .footer-list-item{
-        display: flex;
-    }
-
-
-    .footer-list-item{
-        display: flex;
-        justify-content: center;
-        color: #fff;
-        font-size: 0.6rem;
-        margin-top: 2rem;
-        margin-right: 4rem;
-        gap: 1em;
-    }
-
-    .footer-dot {
-        height: 5px;
-        width: 5px;
-        background-color: #ddd;
-        border-radius: 5%;
-    
-    } 
+} 
 
 
 @media (max-width: 37.5em){
@@ -269,25 +139,5 @@
         flex-direction: column;
     }
 
-
 }
-
-
-  
-
-
-
-  /* /////////////////////////// */
-/* .footer-list-item{
-    align-items: center;
-} */
-
-
-/* .footer-list-item{
-    align-items: center;
-} */
-
-/* .footer-list-item li:first-child{
-    list-style: none;
-} */
 

@@ -21,6 +21,7 @@
     font-size: 4rem;
     margin-bottom: 0.4em;
     line-height: 1.1;
+    word-break: break-word;
 }
 .orange-text {
     color: #FF7C08;
@@ -29,6 +30,7 @@
 .heading-description{
     font-weight: 100;
     line-height: 1.4;
+    text-wrap:pretty;
     text-align: justify;
     color: rgba(71, 85, 105, 1);
 }
