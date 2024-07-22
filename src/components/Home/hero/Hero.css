@@ -1,0 +1,133 @@
+.hero {
+    padding: 0 16em;
+    background-image: url('../../../assets/Bg.png');
+    background-size: cover;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+   
+}
+
+.heading-primary{
+    color: #006633;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.heading-secondary {
+    font-size: 4rem;
+    margin-bottom: 0.4em;
+    line-height: 1.1;
+    word-break: break-word;
+}
+.orange-text {
+    color: #FF7C08;
+}
+
+.heading-description{
+    font-weight: 100;
+    line-height: 1.4;
+    text-wrap:pretty;
+    text-align: justify;
+    color: rgba(71, 85, 105, 1);
+}
+
+.hero-btn-box {
+    display: flex;
+    gap:1em;
+    margin-top: 2em;
+}
+
+.btn--green{
+    background-color: #006633;
+    color: #fff;
+    border-style: none;
+    padding: 1em 4em;
+}
+
+.btn--orange{
+    background-color:#ff7C08;
+    color:#fff;
+    border-style: none;
+    padding: 1em 4em;
+
+}
+
+.hero-img-box{
+    margin-top: 2.6em;
+ 
+ }
+
+ .hero-img{
+     width: 100%;
+     
+ }
+
+
+
+@media  (max-width: 37.5em){
+    .hero{
+        padding: 2.4em 2em;
+        background-image: url('../../../assets/Bg.png');
+        background-size: cover; 
+    }
+
+
+    .heading-primary{
+        color: #006633;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .heading-secondary {
+        font-size: 2.8rem;
+        margin-bottom: 0.4em;
+        line-height: 1.1;
+
+    }
+
+    .heading-description{
+        font-size: 1rem;
+        font-weight: 100;
+        line-height: 1;
+        text-align: justify;
+        color: rgba(71, 85, 105, 1);
+    }
+
+    .hero-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-btn-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        gap: 1.2em;
+        margin-bottom: 2em;
+    }
+
+    .btn--green{
+        background-color: #006633;
+        color: #fff;
+        border-style: none;
+        padding: 1em;
+    }
+
+    .btn--orange{
+        background-color:#ff7C08;
+        color:#fff;
+        border-style: none;
+        padding: 1em;
+    } 
+
+    .hero-img-box{
+        margin-left: 4em;
+    }
+    .hero-img{
+        width: 80%;
+    } 
+
+}
