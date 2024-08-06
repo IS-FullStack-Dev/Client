@@ -85,14 +85,14 @@ export default function Category() {
                 <button className='category-subheading-btn'>View All</button>
             </div>
 
-            <div className="categories-parent">
-            <div className="categories-parent-container">
+            <div className="category-parent">
+            <div className="category-parent-container">
               {itemsToShow.map((item) => (
                 <div
                   key={item.id}
-                  className="categories-items-cards"
+                  className="category-items-cards"
                 >
-                  <div className="categories-img">
+                  <div className="category-img">
                     {item.imageUrl && (
                       <img className='item-img'
                         src={ImageMap[item.imageUrl as string]}
@@ -101,20 +101,20 @@ export default function Category() {
                     )}
                   </div>
 
-                  <div className="categories-items-details-container">
+                  <div className="category-items-details-container">
                     <h3>{item.name}</h3>
                     <p>{item.description}</p>
-                    <div className="categories-item-amount">
-                      <span className="categories-item-amount-deco">
+                    <div className="category-item-amount">
+                      <span className="category-item-amount-deco">
                         {item.oldamount}
                       </span>{" "}
-                      <span className='categories-item-amount-new'>{item.newamount}</span>
+                      <span className='category-item-amount-new'>{item.newamount}</span>
                     </div>
-                    <div className="categories-viewdetails-icon">
-                      <button className="categories-viewdetails-btn">
+                    <div className="category-viewdetails-icon">
+                      <button className="category-viewdetails-btn">
                         View Details
                       </button>
-                      <button className="categories-viewdetails-shoppingbag-btn">
+                      <button className="category-viewdetails-shoppingbag-btn">
                         <img className="shoppingBag" src={ShoppingBag} alt="shopping bag" />
                       </button>
                       <div className="rating">
