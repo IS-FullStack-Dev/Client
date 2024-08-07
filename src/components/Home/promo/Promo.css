@@ -1,6 +1,6 @@
 .promo{
     padding: 2.4em 2em;
-    background: url('../../../assets/Bg3.png') no-repeat center center/cover;
+    background: url('../../../assets/bg3.png') no-repeat center center/cover;
     display: flex;
    justify-content: center;
 }

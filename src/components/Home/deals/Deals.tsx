@@ -3,7 +3,7 @@ import { Item, items as sampleItems } from "../category/Items";
 import { ImageMap } from "../category/ImageImport";
 import Pagination from '../../../helper/Pagination';
 import ShoppingBag from "../../../assets/shopping-bag.png";
-import StarIcon from "../../../assets/Star.png"
+import StarIcon from "../../../assets/star.png"
 import './Deals.css';
 
 

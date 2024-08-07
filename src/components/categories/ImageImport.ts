@@ -1,5 +1,5 @@
 import CinnamonImage from '../../assets/cinnamon-rolls.png';
-import GlazedDoughnutImage from '../../assets/glazedDoughnut.png';
+import GlazedDoughnutImage from '../../assets/glazed-doughnut.png';
 import BunsRaisinsImage from '../../assets/buns-with-raisins.png';
 import SausageImage from '../../assets/sausage-rolls.png';
 import SpringrollImage from "../../assets/spring-rolls.png";
@@ -18,7 +18,7 @@ export const ImageMap: Record<string, string> = {
     "sausage-rolls.png": SausageImage as string,
     "cinnamon-rolls.png": CinnamonImage as string,
     "buns-with-raisins.png": BunsRaisinsImage as string,
-    "glazedDoughnut.png": GlazedDoughnutImage as string,
+    "glazed-doughnut.png": GlazedDoughnutImage as string,
     "spring-rolls.png": SpringrollImage as string,
     "iced-doughnut.png": IcedDoughtnutImage as string,
     "raisin-bread.png" : RaisinBreadImage as string,

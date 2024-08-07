@@ -1,9 +1,9 @@
 import "./Blog.css";
 import Profile from '../../../assets/profile.png';
-import DrinkRating from '../../../assets/Drink-rating.png';
-import FruitDrink from '../../../assets/Fruit-drink.png';
-import Smoothie1 from '../../../assets/Smoothie1.png';
-import Smoothie2 from '../../../assets/Smoothie2.png';
+import DrinkRating from '../../../assets/drink-rating.png';
+import FruitDrink from '../../../assets/fruit-drink.png';
+import Smoothie1 from '../../../assets/smoothie1.png';
+import Smoothie2 from '../../../assets/smoothie2.png';
 import Quote from '../../../assets/quotes.png';
 
 export default function Blog() {

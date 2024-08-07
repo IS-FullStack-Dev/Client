@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { IoPerson } from "react-icons/io5";
 import { IoBag } from "react-icons/io5";
-import Toggle from '../../../assets/Toggle.png';
+import Toggle from '../../../assets/toggle.png';
 import Logo from "../../../assets/hamburger.svg"
 import "./Navbar.css";
 import { useState } from "react";

@@ -4,13 +4,13 @@ import { Item, items as sampleItems } from "./items";
 import "./Categories.css";
 import { ImageMap } from "./ImageImport";
 import Shopping_bag from "../../assets/shopping-bag.png"
-import StarIcon from "../../assets/Star.png"
+import StarIcon from "../../assets/star.png"
 import { RiSearchLine } from "react-icons/ri";
 import { RiAddLargeLine } from "react-icons/ri";
 import { IoOptionsOutline } from "react-icons/io5";
-import CupcakeImage from "../../assets/Cupcake.png"
-import BurgerchipsImage from "../../assets/BurgerChips.png"
-import DoughtnutImage from "../../assets/Doughnut-Bg.png"
+import CupcakeImage from "../../assets/cupcake.png"
+import BurgerchipsImage from "../../assets/burger-chips.png"
+import DoughtnutImage from "../../assets/doughnut-bg.png"
 
 export default function Categories() {
     const [sortBy, setSortBy] = useState("");

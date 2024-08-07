@@ -1,6 +1,6 @@
 .hero {
     padding: 0 16em;
-    background-image: url('../../../assets/Bg.png');
+    background-image: url('../../../assets/bg.png');
     background-size: cover;
 }
 
@@ -71,7 +71,7 @@
 @media  (max-width: 37.5em){
     .hero{
         padding: 2.4em 2em;
-        background-image: url('../../../assets/Bg.png');
+        background-image: url('../../../assets/bg.png');
         background-size: cover; 
     }
 

@@ -3,14 +3,14 @@
     }
     
     .categories__head {
-      background-image: url("../../assets/Bg.png");
+      background-image: url("../../assets/bg.png");
       background-repeat: no-repeat;
       background-size:cover;
       display: flex;
     }
     
     .categories__head-heading {
-      background-image: url("../../assets//burger-Bg.png");
+      background-image: url("../../assets//burger-bg.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100%;
@@ -322,7 +322,7 @@
     }
   
     .categories__head-heading {
-      background-image: url("../../assets//burger-Bg.png");
+      background-image: url("../../assets//burger-bg.png");
       background-repeat: no-repeat;
       background-position:bottom;
       background-size: 100%;

@@ -8,10 +8,10 @@ import CakeImage from "../../../assets/cake.png";
 import DrinksImage from "../../../assets/drinks.png";
 import BurgerImage from "../../../assets/burger.png";
 import ShoppingBag from "../../../assets/shopping-bag.png";
-import deliverIcon from "../../../assets/DeliveryIcon.png";
-import payIcon from "../../../assets/PaymentIcon.png";
-import SupportIcon from "../../../assets/SupportIcon.png";
-import StarIcon from "../../../assets/Star.png"
+import deliverIcon from "../../../assets/delivery-icon.png";
+import payIcon from "../../../assets/payment-icon.png";
+import SupportIcon from "../../../assets/support-icon.png";
+import StarIcon from "../../../assets/star.png"
 import Pagination from "../../../helper/Pagination";
 
 
