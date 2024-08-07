@@ -1,5 +1,5 @@
 import PostPics from '../../../assets/post-pics.png';
-import DelPics from '../../../assets/delivery-icon.png';
+import DelPics from '../../../assets/delivery.png';
 import "./About.css"
 
 export default function About() {
